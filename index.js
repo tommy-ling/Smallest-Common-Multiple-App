@@ -4,7 +4,7 @@ const button = document.querySelector('button')
 const result = document.querySelector('#result')
 
 button.addEventListener('click', () => {
-  result.value = smallestCommons([smallNum.value, bigNum.value])
+  result.value = smallestCommons([parseInt(smallNum.value), parseInt(bigNum.value)])
 })
 
 function smallestCommons(arr) {
@@ -45,6 +45,5 @@ function smallestCommons(arr) {
       } shortDivisionArr.push(primeOfArr[i])
     }
   }
-  // console.log(primeOfArr)
   return shortDivisionArr.reduce((a,b) => a*b);
 }
