@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+
+p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: pink;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  height: 100vh;
+}
+
+#main {
+  padding-top: 130px;
+}
+
+.calcs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin: 15px 3px;
+  width: 120px;
+  text-align: center;
+}
+
+.calcs button {
+  width: 100px;
+  margin: 20px;
+}
